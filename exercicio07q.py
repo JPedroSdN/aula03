@@ -4,10 +4,9 @@ G = 5.8
 E = 4.9
 Valor = 0
 
-if Tipo == "G" or "g":
+if Tipo == "G" or Tipo == "g":
     Valor = G * Quantidade
-elif:
-    Tipo == "E" or "e":
+elif Tipo == "E" or Tipo == "e":
     Valor = E * Quantidade
 else:
     print("Tipo de combustivel inválido")
